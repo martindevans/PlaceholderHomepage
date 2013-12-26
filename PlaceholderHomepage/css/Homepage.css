@@ -1,4 +1,9 @@
 ﻿body {
+    margin : 0 auto;
+    padding : 0;
+    font : 100%/1.4 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif; 	
+    color : #000; 
+    text-align: center;
     background-color: #090909;
     background-image: url(/images/binding_dark.png);    /* image from subtlepatterns.com  */
 }
@@ -9,14 +14,6 @@
     border-right: 1px solid #787768;
 }
 
-#main-title {
-    font-variant: small-caps;
-    font-size: xx-large;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-    line-height: 1.2em;
-}
-
 #main-logo {
     width: 100%;
     height: auto;
@@ -24,9 +21,19 @@
 
 .NavigationLink {
     padding: 5px;
+    font-variant: small-caps;
     letter-spacing: 0.15em;
     line-height: 1.2em;
-    font-variant: small-caps;
     font-size: x-large;
     font-family: sans-serif;
+}
+
+.darkcontainer > section {
+    padding: 1%;
+}
+
+header {
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+    line-height: 1.2em;
 }
