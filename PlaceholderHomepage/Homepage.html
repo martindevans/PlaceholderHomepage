@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title></title>
+        
+        <!-- Responsive and mobile friendly stuff -->
+	    <meta name="HandheldFriendly" content="True" />
+	    <meta name="MobileOptimized" content="320" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	    <!-- Stylesheets -->
+	    <link rel="stylesheet" href="css/html5reset.css" media="all" />
+	    <link rel="stylesheet" href="css/responsivegridsystem.css" media="all" />
+	    <link rel="stylesheet" href="css/col.css" media="all" />
+	    <link rel="stylesheet" href="css/2cols.css" media="all" />
+	    <link rel="stylesheet" href="css/3cols.css" media="all" />
+	    <link rel="stylesheet" href="css/4cols.css" media="all" />
+	    <link rel="stylesheet" href="css/5cols.css" media="all" />
+	    <link rel="stylesheet" href="css/6cols.css" media="all" />
+	    <link rel="stylesheet" href="css/7cols.css" media="all" />
+	    <link rel="stylesheet" href="css/8cols.css" media="all" />
+	    <link rel="stylesheet" href="css/9cols.css" media="all" />
+	    <link rel="stylesheet" href="css/10cols.css" media="all" />
+	    <link rel="stylesheet" href="css/11cols.css" media="all" />
+	    <link rel="stylesheet" href="css/12cols.css" media="all" />
+
+	    <!-- Responsive Stylesheets -->
+	    <link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="/css/1024.css" />
+	    <link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="/css/768.css" />
+	    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="/css/480.css" />
+
+        <!-- Page style -->
+        <link rel="stylesheet" href="css/Homepage.css" />
+        <link rel="stylesheet" href="css/youtube.css" />
+
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+    </head>
+    <body>
+
+        <div id="maincontentcontainer">
+            <div class="maincontent">
+                <div class="section group">
+                    <div class="col span_1_of_4">
+                        <img id="main-logo" src="images/placeholder_logo.png" />
+                        <div class="NavigationLink"><a href="http://martindevans.me">Blog</a></div>
+                        <div class="NavigationLink"><a href="http://steamcommunity.com/sharedfiles/filedetails/?id=129699103">Greenlight</a></div>
+                        <div class="NavigationLink"><a href="mailto:martin@placeholder-software.co.uk">Email</a></div>
+                        <div class="NavigationLink"><a href="https://twitter.com/martindevans">Twitter</a></div>
+                        <div class="NavigationLink"><a href="http://placeholder-software.co.uk/press/index.php">Presskit()</a></div>
+                    </div>
+                    <div class="col span_3_of_4">
+                        <div class="video-container">
+	                        <iframe src="//www.youtube.com/embed/LGKRRkFXXBY" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section group">
+                    <div class="col span_1_of_3 darkcontainer">
+                        <header><a href="//www.youtube.com/embed/H_S79Y-_8F0?autoplay=1" class="DisplayVideoLink"><h2>Explore A City</h2></a></header>
+                        <section>Stuff about exploration and generating great big cities full of NPCs</section>
+                    </div>
+                    <div class="col span_1_of_3 darkcontainer">
+                        <header><a href="//www.youtube.com/embed/C0s8V6EJ9xI?autoplay=1" class="DisplayVideoLink"><h2>Rob A Bank</h2></a></header>
+                        <section>Robbing banks is cool, but for some reason it's usually frowned upon in polite company</section>
+                    </div>
+                    <div class="col span_1_of_3 darkcontainer">
+                        <header><a href="//www.youtube.com/embed/b6a7IF12TjM?autoplay=1" class="DisplayVideoLink"><h2>With Your Friends</h2></a></header>
+                        <section>Life would be terribly boring without doing stuff</section>
+                    </div>
+                </div>
+
+                <div class="section group">
+                    <div class="col span_1_of_3 darkcontainer">
+                        <header><a href="//www.youtube.com/embed/H_S79Y-_8F0?autoplay=1" class="DisplayVideoLink"><h2>Mod The Game</h2></a></header>
+                        <section>Stuff about how everything is a plugin</section>
+                    </div>
+                    <div class="col span_1_of_3 darkcontainer">
+                        <header><a href="//www.youtube.com/embed/C0s8V6EJ9xI?autoplay=1" class="DisplayVideoLink"><h2>Create New Buildings</h2></a></header>
+                        <section>Building designer tool</section>
+                    </div>
+                    <div class="col span_1_of_3 darkcontainer">
+                        <header><a href="//www.youtube.com/embed/b6a7IF12TjM?autoplay=1" class="DisplayVideoLink"><h2>Share Your Creations</h2></a></header>
+                        <section>plugins.placeholder-software.co.uk</section>
+                    </div>
+                </div>
+
+                <div class="section group">
+                    <div class="col span_10_of_10">Website by <a href="https://twitter.com/martindevans">Martin Evans</a> and <a href="https://twitter.com/HourdTasa">Daniel Atkinson</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Get CDN hosted jquery, fallback to locally hosted -->
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src=\"js/jquery-2.0.3.min.js\"><\/script>');</script>
+
+        <script>
+            //Grab the video links and make them open the video in the relvant box instead of redirecting the browser to the video
+            $(function () {
+                $('.DisplayVideoLink').on('click', function (event) {
+                    event.preventDefault();
+                    $('.video-container iframe')
+                        .prop("src", $(event.currentTarget).attr('href'))
+                        [0].scrollIntoView();
+                });
+            });
+
+            //Make all links open in a new window
+            $('a').attr("target", "_blank");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+﻿body {
+    background-color: #090909;
+    background-image: url(/images/binding_dark.png);    /* image from subtlepatterns.com  */
+}
+
+.maincontent {
+    background-color: rgba(1,1,1,0.55);
+    border-left: 1px solid #787768;
+    border-right: 1px solid #787768;
+}
+
+#main-title {
+    font-variant: small-caps;
+    font-size: xx-large;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+}
+
+#main-logo {
+    width: 100%;
+    height: auto;
+}
+
+.NavigationLink {
+    padding: 5px;
+    letter-spacing: 0.15em;
+    line-height: 1.2em;
+    font-variant: small-caps;
+    font-size: x-large;
+    font-family: sans-serif;
+}
