@@ -189,7 +189,7 @@ background-color : transparent; }
 		clear: both;
 		width: 80%; /* 1000px / 1250px */
 		font-size: 0.8125em; /* 13 / 16 */
-		max-width: 92.3em; /* 1200px / 13 */
+		max-width: 130em; /* 1200px / 13 */
 		margin: 0 auto;
 		padding: 1em 0px;
 		color: #ccc;
