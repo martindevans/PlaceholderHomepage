@@ -55,23 +55,6 @@
     <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="css\1024.css" />
-    <Content Include="css\10cols.css" />
-    <Content Include="css\11cols.css" />
-    <Content Include="css\12cols.css" />
-    <Content Include="css\2cols.css" />
-    <Content Include="css\3cols.css" />
-    <Content Include="css\480.css" />
-    <Content Include="css\4cols.css" />
-    <Content Include="css\5cols.css" />
-    <Content Include="css\6cols.css" />
-    <Content Include="css\768.css" />
-    <Content Include="css\7cols.css" />
-    <Content Include="css\8cols.css" />
-    <Content Include="css\9cols.css" />
-    <Content Include="css\col.css" />
-    <Content Include="css\html5reset.css" />
-    <Content Include="css\responsivegridsystem.css" />
     <Content Include="css\Homepage.css" />
     <Content Include="css\youtube.css" />
     <Content Include="Homepage.html" />
