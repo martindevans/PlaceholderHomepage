@@ -8,10 +8,18 @@
     background-image: url(../images/binding_dark.png);    /* image from subtlepatterns.com  */
 }
 
-.maincontent {
+.container {
     background-color: rgba(1,1,1,0.55);
     border-left: 1px solid #787768;
     border-right: 1px solid #787768;
+
+	font-size: 1em;
+	color: #ccc;
+	/*line-height: 1.5em;*/
+}
+
+.row {
+    margin-bottom: 1em;
 }
 
 #main-logo {
@@ -28,6 +36,11 @@
     font-family: sans-serif;
 }
 
+.left-center {
+    margin-left: 0.5em;
+    text-align: left;
+}
+
 .darkcontainer > section {
     padding: 1%;
 }
@@ -36,4 +49,163 @@ header {
     font-variant: small-caps;
     letter-spacing: 0.15em;
     line-height: 1.2em;
+}
+
+/*  HEADINGS  ============================================================================= */
+
+h1, h2, h3, h4, h5, h6 {
+font-family:  MuseoSlab300, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-weight : normal;
+margin-top: 10px;
+letter-spacing: -1px;
+}
+
+h1 { 
+font-family:  LeagueGothicRegular, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+margin-bottom : 0.2em;
+font-size : 6em; /* 96 / 16 */
+line-height : 1.4;
+}
+
+
+h2 { 
+margin-bottom : .5em;
+margin-top : .5em;
+font-size : 2.75em; /* 40 / 16 */
+line-height : 1.2;
+}
+
+h3 { 
+margin-bottom : 0.3em;
+letter-spacing: -1px;
+font-size : 1.75em; /* 28 / 16 */
+line-height : 1.3; }
+
+
+h4 { 
+margin-bottom : 0.5em;
+font-size : 1.5em; /* 24 / 16  */
+line-height : 1.25; }
+
+h5 { 
+margin-bottom : 1.25em;
+font-size : 1em; /* 20 / 16 */ }
+
+h6 { 
+font-size : 1em; /* 16 / 16  */ }
+
+/*  TYPOGRAPHY  ============================================================================= */
+
+p, ol, ul, dl, address { 
+margin-bottom : 1.5em; 
+font-size : 1.5em;
+}
+
+p {
+hyphens : auto;  }
+
+
+p.introtext {
+font-family:  MuseoSlab100, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
+font-size : 2.5em; /* 40 / 16 */
+color: #333;
+line-height: 1.4em;
+letter-spacing: -1px;
+margin-bottom: 0.5em;
+}
+
+
+p.handwritten {
+font-family:  HandSean, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif; 
+font-size: 1.375em; /* 24 / 16 */
+line-height: 1.8em;
+margin-bottom: 0.3em;
+color: #666;
+}
+
+p.center {
+text-align: center;
+}
+
+ul, 
+ol { 
+margin : 0 0 1.5em 0; 
+padding : 0 0 0 24px; }
+
+li ul, 
+li ol { 
+margin : 0;
+font-size : 1em; /* 16 / 16 = 1 */ }
+
+dl, 
+dd { 
+margin-bottom : 1.5em; }
+
+dt { 
+font-weight : normal; }
+
+b, strong { 
+font-weight : bold; }
+
+hr { 
+display : block; 
+margin : 1em 0; 
+padding : 0;
+height : 1px; 
+border : 0; 
+border-top : 1px solid #ccc;
+}
+
+small { 
+font-size : 1em; /* 16 / 16 = 1 */ }
+
+sub, sup { 
+font-size : 75%; 
+line-height : 0; 
+position : relative; 
+vertical-align : baseline; }
+
+sup { 
+top : -.5em; }
+
+sub { 
+bottom : -.25em; }
+
+.subtext {
+	color: #666;
+	}
+
+/* LINKS =============================================================================  */
+
+a { 
+color : #cc1122;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+text-decoration: none;
+}
+
+a:visited { 
+color : #ee3344; }
+
+a:focus { 
+outline : thin dotted; 
+color : rgb(0,0,0); }
+
+a:hover, 
+a:active { 
+outline : 0;
+color : #dd2233;
+text-decoration: none;
+}
+
+
+/* IMAGES ============================================================================= */
+
+img {
+border : 0;
+max-width: 100%;
+height: auto;
+width: auto\9; /* ie8 */
 }
