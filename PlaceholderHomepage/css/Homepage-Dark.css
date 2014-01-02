@@ -1,0 +1,30 @@
+﻿body {
+    color : #000; 
+    background-color: #090909;
+    background-image: url(../images/binding_dark.png);    /* image from subtlepatterns.com  */
+}
+
+.container {
+    background-color: rgba(1,1,1,0.55);
+    border-left-color: #787768;
+    border-right-color: #787768;
+
+	color: #ccc;
+}
+
+a { 
+    color : #cc1122;
+}
+
+a:visited { 
+    color : #ee3344;
+}
+
+a:focus { 
+    color : rgb(0,0,0);
+}
+
+a:hover, 
+a:active { 
+color : #dd2233;
+}

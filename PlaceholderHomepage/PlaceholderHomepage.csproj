@@ -55,14 +55,17 @@
     <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="css\Homepage.css" />
+    <Content Include="css\Homepage-Analogic-Red.css" />
+    <Content Include="css\Homepage-Structure.css" />
+    <Content Include="css\Homepage-Dark.css" />
+    <Content Include="css\Homepage-Analogic-Orange.css" />
     <Content Include="css\youtube.css" />
-    <Content Include="Homepage.html" />
+    <Content Include="images\maxresdefault.jpg" />
+    <Content Include="index.html" />
     <Content Include="images\binding_dark.png" />
     <Content Include="images\placeholder_logo.svg">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="images\placeholder_logo.png" />
     <Content Include="js\homepage.js">
       <DependentUpon>homepage.ts</DependentUpon>
     </Content>

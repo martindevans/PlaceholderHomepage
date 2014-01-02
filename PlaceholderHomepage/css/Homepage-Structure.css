@@ -2,20 +2,14 @@
     margin : 0 auto;
     padding : 0;
     font : 100%/1.4 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif; 	
-    color : #000; 
     text-align: center;
-    background-color: #090909;
-    background-image: url(../images/binding_dark.png);    /* image from subtlepatterns.com  */
 }
 
 .container {
-    background-color: rgba(1,1,1,0.55);
-    border-left: 1px solid #787768;
-    border-right: 1px solid #787768;
+    border-left: 1px solid;
+    border-right: 1px solid;
 
 	font-size: 1em;
-	color: #ccc;
-	/*line-height: 1.5em;*/
 }
 
 .row {
@@ -105,81 +99,9 @@ font-size : 1.5em;
 p {
 hyphens : auto;  }
 
-
-p.introtext {
-font-family:  MuseoSlab100, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif;
-font-size : 2.5em; /* 40 / 16 */
-color: #333;
-line-height: 1.4em;
-letter-spacing: -1px;
-margin-bottom: 0.5em;
-}
-
-
-p.handwritten {
-font-family:  HandSean, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif; 
-font-size: 1.375em; /* 24 / 16 */
-line-height: 1.8em;
-margin-bottom: 0.3em;
-color: #666;
-}
-
-p.center {
-text-align: center;
-}
-
-ul, 
-ol { 
-margin : 0 0 1.5em 0; 
-padding : 0 0 0 24px; }
-
-li ul, 
-li ol { 
-margin : 0;
-font-size : 1em; /* 16 / 16 = 1 */ }
-
-dl, 
-dd { 
-margin-bottom : 1.5em; }
-
-dt { 
-font-weight : normal; }
-
-b, strong { 
-font-weight : bold; }
-
-hr { 
-display : block; 
-margin : 1em 0; 
-padding : 0;
-height : 1px; 
-border : 0; 
-border-top : 1px solid #ccc;
-}
-
-small { 
-font-size : 1em; /* 16 / 16 = 1 */ }
-
-sub, sup { 
-font-size : 75%; 
-line-height : 0; 
-position : relative; 
-vertical-align : baseline; }
-
-sup { 
-top : -.5em; }
-
-sub { 
-bottom : -.25em; }
-
-.subtext {
-	color: #666;
-	}
-
 /* LINKS =============================================================================  */
 
 a { 
-color : #cc1122;
 -webkit-transition: all 0.3s ease;
 -moz-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
@@ -187,17 +109,13 @@ transition: all 0.3s ease;
 text-decoration: none;
 }
 
-a:visited { 
-color : #ee3344; }
-
 a:focus { 
-outline : thin dotted; 
-color : rgb(0,0,0); }
+outline : thin solid;
+}
 
 a:hover, 
 a:active { 
 outline : 0;
-color : #dd2233;
 text-decoration: none;
 }
 

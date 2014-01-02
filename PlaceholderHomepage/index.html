@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
 
         <!-- Page style -->
-        <link rel="stylesheet" href="css/Homepage.css" />
+        <link rel="stylesheet" href="css/Homepage-Structure.css" />
+        <link rel="stylesheet" href="css/Homepage-Analogic-Red.css" id="page-color-style" />
         <link rel="stylesheet" href="css/youtube.css" />
     </head>
     <body>
@@ -24,7 +25,7 @@
                     <div class="NavigationLink"><a href="https://twitter.com/martindevans">Twitter</a></div>
                     <div class="NavigationLink"><a href="http://placeholder-software.co.uk/press/index.php">Presskit()</a></div>
                 </div>
-                <div class="col-sm-9" style="background-image: url(images/maxresdefault.jpg); opacity: 0.75;">
+                <div class="col-sm-9" style="background-image: url(images/maxresdefault.jpg); opacity: 0.9;">
 
                     <!-- REMOVE THIS AND REPLACE WITH TRAILER! -->
                     <div style="position:absolute; top:25%; left:50%;">
@@ -48,7 +49,7 @@
     <div class="col-sm-12">
         <p>Seriously, this isn't even alpha yet.
 
-        Access to the game right now means you will get to enjoy <del>bugs</del>features such as:</p>
+        These <del>bugs</del>features have all been seen in recent builds of the game:</p>
     </div>
 </div>
 <div class="row">
@@ -116,6 +117,14 @@
             <div class="row">
                 <div class="col-sm-12">Website by <a href="https://twitter.com/martindevans">Martin Evans</a> and <a href="https://twitter.com/HourdTasa">Daniel Atkinson</a></div>
             </div>
+
+            <div class="row">
+                <div id="css-switcher" class="col-sm-12" style="display: none">Color Schemes:
+                    <span class="ThemeSwitch" data-css="css/Homepage-Dark.css">Dark</span>,
+                    <span class="ThemeSwitch" data-css="css/Homepage-Analogic-Orange.css">Analogic-Orange</span>,
+                    <span class="ThemeSwitch" data-css="css/Homepage-Analogic-Red.css">Analogic-Red</span>
+                </div>
+            </div>
         </div>
 
         <!-- Get CDN hosted jquery, fallback to locally hosted -->
@@ -143,6 +152,25 @@
 
             //Make all links open in a new window
             $('a').attr("target", "_blank");
+        </script>
+
+        <!-- Color scheme switching -->
+        <script>
+            $(function () {
+                $('.ThemeSwitch').on('click', function (event) {
+                    event.preventDefault();
+                    var el = $(event.currentTarget);
+                    var css = el.attr('data-css');
+                    if (!css)
+                        return;
+
+                    $('#page-color-style').attr("href", css);
+                });
+            });
+
+            function ShowCssSwitcher() {
+                $('#css-switcher').css("display", "inline");
+            }
         </script>
 
         <!-- Google analytics -->

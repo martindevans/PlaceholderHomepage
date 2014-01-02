@@ -1,0 +1,27 @@
+﻿body {
+    color : #111;
+    background-color: #C1302C;
+}
+
+.container {
+    background-color: #FFCD99;
+    border-left-color: #DF4B47;
+    border-right-color: #DF4B47;
+}
+
+a { 
+    color : #DB413D;
+}
+
+a:visited { 
+    color : #C1502C;
+}
+
+a:focus { 
+    color : #C1302C;
+}
+
+a:hover, 
+a:active { 
+color : #C1302C;
+}
