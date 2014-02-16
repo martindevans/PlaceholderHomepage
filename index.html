@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" class="no-js">
 <head>
     <title>Heist - Placeholder Software</title>
@@ -15,28 +15,17 @@
     <link href="css/preloader.css" rel="stylesheet" />
     <script src="plugins/pace/pace.min.js"></script>
 
-
-    <!-- Bootstrap 3 Css -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
-
-    <!-- Font-Awesome -->
-    <link href="css/font-awesome.css" rel="stylesheet" />
-
-    <!-- Seo-Icons -->
-    <link href="css/seo-icons.css" rel="stylesheet" />
-
-    <!-- Master Css File Also Containing Theme Preferences -->
-    <!-- Replace With Any theme file YOu Like Located Inside Css Folder -->
-    <link href="css/theme-17.css" rel="stylesheet" />
-
-    <!-- Flex Slider Css -->
-    <link href="plugins/flexSlider/flexslider.css" rel="stylesheet" />
-
-    <!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet" />
-
     <!-- Modenizer - A future Detection library for html5 and css3 -->
     <script src="js/modernizr.js"></script>
+
+    <!-- build:css css/main.css -->
+    <link href="css/bootstrap.css" rel="stylesheet" /> <!-- Bootstrap 3 Css -->
+    <link href="css/font-awesome.css" rel="stylesheet" /> <!-- Font-Awesome -->
+    <link href="css/seo-icons.css" rel="stylesheet" /> <!-- Seo-Icons -->
+    <link href="css/theme-17.css" rel="stylesheet" /> <!-- Master Css File Also Containing Theme Preferences -->
+    <link href="plugins/flexSlider/flexslider.css" rel="stylesheet" /> <!-- Flex Slider Css -->    
+    <link href="css/animate.css" rel="stylesheet" /> <!-- Animations -->
+    <!-- endbuild -->
 
     <!-- Google Web Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Roboto:400,300,700' rel='stylesheet' type='text/css'>
@@ -445,42 +434,20 @@ Those large design changes will happen in response to what feedback I get from p
 
 
 
-    <!-- Jquery -->
-    <script src="js/jquery-1.10.2.js"></script>
-
-    <!-- Bootstrap Js -->
-    <script src="js/bootstrap.js"></script>
-
-    <!-- Waypoints Js For Scrolling Elements -->
-    <script src="plugins/waypoints/waypoints.js"></script>
-
-
-    <!-- MixitUp For Portfolio Filtering -->
-    <script src="plugins/mixitup/jquery.mixitup.min.js"></script>
-
-
-    <!-- FlexSlider For Text Slider In Homescreen -->
-    <script src="plugins/flexSlider/jquery.flexslider.js"></script>
-
-
-    <!-- Sequence Slider For Icons SLider In Homescreen -->
-    <script src="plugins/sequence/jquery.sequence.js"></script>
-
-
-    <!-- Enable Resonsiveness in Older Browsers [IE8- ] -->
-    <script src="plugins/respond/respond.src.js"></script>
-
-
-    <!-- Map In Contact Page -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
-
-    <!-- Galleria -->
-    <script src="galleria/galleria-1.3.5.min.js"></script>
+    <!-- build:js js/main.js -->
+    <script src="js/jquery-1.10.2.js"></script> <!-- Jquery -->    
+    <script src="js/bootstrap.js"></script> <!-- Bootstrap Js -->    
+    <script src="plugins/waypoints/waypoints.js"></script><!-- Waypoints Js For Scrolling Elements -->    
+    <script src="plugins/mixitup/jquery.mixitup.min.js"></script><!-- MixitUp For Portfolio Filtering -->    
+    <script src="plugins/flexSlider/jquery.flexslider.js"></script><!-- FlexSlider For Text Slider -->    
+    <script src="plugins/sequence/jquery.sequence.js"></script><!-- Sequence Slider For Icons SLider -->    
+    <script src="plugins/respond/respond.src.js"></script><!-- Enable Resonsiveness in Older Browsers [IE8- ] -->
+    <script src="galleria/galleria-1.3.5.min.js"></script><!-- Galleria -->
     <script src="galleria/themes/classic/galleria.classic.js"></script>
+    <script src="js/initializer.js"></script><!-- Required Jquery Script For Initializer -->
+    <!-- endbuild -->
     
     
-    <!-- Required Jquery Script For Initializer -->
-    <script src="js/initializer.js"></script>
 
     <!-- Google analytics -->
     <script>
@@ -493,6 +460,9 @@ Those large design changes will happen in response to what feedback I get from p
       ga('send', 'pageview');
 
     </script>
+
+    <!-- Map In Contact Page -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
 
 </body>
 </html>
