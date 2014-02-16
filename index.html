@@ -1,0 +1,498 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" class="no-js">
+<head>
+    <title>Heist - Placeholder Software</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="google-site-verification" content="9a9rdRSOeVyWiJhlmga09XQyl0hkwbatz2Mi8wNT6Z8" />
+
+    <!-- For Enabling Responsiveness In Mobile Devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Preloader Styles [must be placed here or top]-->
+    <link href="css/preloader.css" rel="stylesheet" />
+    <script src="plugins/pace/pace.min.js"></script>
+
+
+    <!-- Bootstrap 3 Css -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Font-Awesome -->
+    <link href="css/font-awesome.css" rel="stylesheet" />
+
+    <!-- Seo-Icons -->
+    <link href="css/seo-icons.css" rel="stylesheet" />
+
+    <!-- Master Css File Also Containing Theme Preferences -->
+    <!-- Replace With Any theme file YOu Like Located Inside Css Folder -->
+    <link href="css/theme-17.css" rel="stylesheet" />
+
+    <!-- Flex Slider Css -->
+    <link href="plugins/flexSlider/flexslider.css" rel="stylesheet" />
+
+    <!-- Animations -->
+    <link href="css/animate.css" rel="stylesheet" />
+
+    <!-- Modenizer - A future Detection library for html5 and css3 -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Google Web Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <style>
+        .brand-text-slider {
+            text-shadow: 0.0em 0.0em 0.25em #111
+        }
+        
+        .steam-bg {
+            background-color: #0C0C0C;
+            /* background-image: -webkit-radial-gradient(0 0, ellipse farthest-side, rgb(89, 115, 36) 0%, rgb(18, 18, 18) 100%); */
+            
+            background: #597324; /* Old browsers */
+            background: -moz-linear-gradient(-45deg,  #597324 0%, #0c0c0c 50%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#597324), color-stop(50%,#0c0c0c)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(-45deg,  #597324 0%,#0c0c0c 50%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(-45deg,  #597324 0%,#0c0c0c 50%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(-45deg,  #597324 0%,#0c0c0c 50%); /* IE10+ */
+            background: linear-gradient(135deg,  #597324 0%,#0c0c0c 50%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#597324', endColorstr='#0c0c0c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        }
+        
+        #contact {
+            background: #e74c3c; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #e74c3c 0%, #a5352b 44%, #591616 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#e74c3c), color-stop(44%,#a5352b), color-stop(100%,#591616)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(-45deg, #e74c3c 0%,#a5352b 44%,#591616 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(-45deg, #e74c3c 0%,#a5352b 44%,#591616 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(-45deg, #e74c3c 0%,#a5352b 44%,#591616 100%); /* IE10+ */
+            background: linear-gradient(135deg, #e74c3c 0%,#a5352b 44%,#591616 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e74c3c', endColorstr='#591616',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        }
+        
+        .service-item .service-text {
+            font-size: 1.5em;
+        }
+        
+        .service-item .service-text b {
+            font-weight: 400;
+        }
+        
+        .service-item .service-content {
+            padding-top: 0;
+            color: #010101;
+        }
+        
+        .service-item .service-title {
+            padding-bottom: 0;
+        }
+        
+        .galleria {
+            width: 90%;
+            height: 400px;
+            bottom: 0px;
+            background: #000;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-preloader" style="display: none">
+        <div class="page-preloader-b page-preloader-sec-1">
+            <div></div>
+        </div>
+        <div class="page-preloader-b page-preloader-sec-2">
+            <div></div>
+        </div>
+        <div class="page-preloader-b page-preloader-sec-3">
+            <div></div>
+        </div>
+        <div class="page-preloader-b page-preloader-sec-4">
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="site-navigation navbar navbar-default navbar-fixed-top nav-visible">
+        <div class="navbar-header">
+
+            <!-- Navbar Toggle Button When Hidden -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Brand Name -->
+            <a class="navbar-brand" href="#">Placeholder Software</a>
+        </div>
+
+
+        <!-- Navbar Links Container-->
+        <div class="collapse navbar-collapse" id="main-nav-collapse">
+
+            <!-- Navbar Links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home-screen"><i class="fa fa-home theme-color"></i>&nbsp;Home</a></li>
+                <li><a href="#services"><i class="fa fa-cog theme-color"></i>&nbsp;Features</a></li>
+                <!-- <li><a href="#pricing"><i class="fa fa-dollar theme-color"></i>&nbsp;Pricing</a></li> -->
+                <li><a href="#greenlight"><i class="fa fa-star theme-color"></i>&nbsp;Greenlight</a></li>
+                <li><a href="#media"><i class="fa fa-picture-o theme-color"></i>&nbsp;Gallery</a></li>
+                <!-- <li><a href="#features"><i class="fa fa-check-circle theme-color"></i>&nbsp;Features</a></li> -->
+                <li><a href="#contact"><i class="fa fa-envelope theme-color"></i>&nbsp;Discuss</a></li>
+                <li><a href="http://martindevans.me" target="blank"><i class="fa fa-rss theme-color"></i>&nbsp;Blog</a></li>
+                <!-- <li><a href="http://placeholder-software.co.uk/press/index.php" target="blank"><i class="fa fa-bullhorn theme-color"></i>&nbsp;Presskit</a></li> -->
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <!-- Home Screen -->
+    <section id="home-screen" class="home-screen full-screen">
+
+
+        <!-- Icon Slider In Home Screen -->
+        <div class="home-screen-slider">
+            <ul class="sequence-canvas">
+
+                <!-- Frame 1 For Icon Slider -->
+                <li class="frame">
+                    <div class="icon-shadow-wrap">
+                        <div class="icon"><i class="icon-seo-open-lock"></i></div>
+                    </div>
+                </li>
+
+                <!-- Frame 2 For Icon Slider -->
+                <li class="frame">
+                    <div class="icon-shadow-wrap">
+                        <div class="icon"><i class="icon-seo-eye"></i></div>
+                    </div>
+                </li>
+
+                <!-- Frame 3 For Icon Slider -->
+                <li class="frame">
+                    <div class="icon-shadow-wrap">
+                        <div class="icon"><i class="icon-seo-target-audience"></i></div>
+                    </div>
+                </li>
+
+                <!-- Frame 4 For Icon Slider -->
+                <li class="frame">
+                    <div class="icon-shadow-wrap">
+                        <div class="icon"><i class="icon-seo-money"></i></div>
+                    </div>
+                </li>
+
+            </ul>
+
+            <!-- Previous Slide Nav -->
+            <a class="prev-slide home-screen-slider-nav" href="#prev-slide"><i class="fa fa-angle-left"></i></a>
+
+            <!-- Next Slide Nav -->
+            <a class="next-slide home-screen-slider-nav" href="#next-slide"><i class="fa fa-angle-right"></i></a>
+
+            <!-- Play/Pause Button For Slider -->
+            <!-- <a class="play-pause-home-screen-slider home-screen-slider-nav right-align" href="#pause-slide"><i class="fa fa-pause slider-paused"></i><i class="fa fa-play slider-playing"></i></a> -->
+
+        </div>
+
+        <!-- Text Slider For Homescreen -->
+        <div class="brand-text-slider">
+            <div class="brand-text-slider-inner flexslider">
+                <ul class="slides">
+
+                    <!-- Frame 1 For Text Slider -->
+                    <li>
+                        <h2>Plan A <b>Perfect</b> Heist</h2>
+                    </li>
+
+
+                    <!-- Frame 2 For Text Slider -->
+                    <li>
+                        <h2>Conduct Corporate <b>Espionage</b></h2>
+                    </li>
+
+
+                    <!-- Frame 3 For Text Slider -->
+                    <li>
+                        <h2><b>Assassinate</b> Powerful Figures</b></h2>
+                    </li>
+
+                    
+                    <!-- Frame 4 For Text Slider -->
+                    <li>
+                        <h2>Can Your <b>Greed</b> Be Satisfied?</h2>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- Navigate To Services Link -->
+        <a href="#services" class="next-screen animated fadeInUpBig"><i class="fa fa-angle-double-down"></i></a>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services ">
+
+        <!-- Service Item Left ALigned-->
+        <article class="service-item service-item-left-align">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"><i class="service-icon icon-seo-open-lock" data-animation="rotateIn"></i></div>
+                    <div class="col-sm-offset-1 col-sm-7 service-content">
+
+                        <h2 class="service-title" data-animation="fadeInRightBig">A Life Of Crime</h2>
+                        <div class="service-text">
+<p data-animation="fadeInRightBig" data-animation-delay="0.05s">
+<b>Sneak</b> into the building disguised as an employee, <b>fast talk</b> your way past guards, <b>crack</b> the safe code, <b>steal</b> the corporate secrets and <b>disappear</b> before anyone even knows a crime has been committed.
+</p>
+
+<p data-animation="fadeInRightBig" data-animation-delay=".1s">
+<b>Smash</b> down the doors to the bank, <b>shoot</b> the guards, take everyone in the lobby <b>hostage</b>, blow open the safe with <b>high explosives</b>, take the <b>bullion</b> and flee the scene before the police arrive.
+<p>
+
+<p data-animation="fadeInRightBig" data-animation-delay=".15s">
+Where you target, what you steal and how you commit your crimes is up to you. The only rule is not to get caught!
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Service Item Right ALigned-->
+        <article class="service-item service-item-right-align theme-bg">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-4 visible-xs"><i class="service-icon icon-seo-globe" data-animation="rotateIn"></i></div>
+
+                    <div class="col-sm-7  service-content">
+
+                        <h2 class="service-title" data-animation="fadeInLeftBig">Entire Worlds</h2>
+                        <div class="service-text" data-animation="fadeInLeftBig" data-animation-delay=".2s">
+<p data-animation="fadeInLeftBig" data-animation-delay="0.05s">
+Sometimes the best way to break into a bank is to jump onto the roof from the <b>next building over</b>. Sometimes the best way to carry out an assassination is to snipe the target and all his guards from <b>across the street</b>.
+</p>
+
+<p data-animation="fadeInLeftBig" data-animation-delay="0.1s">
+Heist generates entire city blocks for you to perform your crimes in. Find the shady back alleys to <b>sneak in</b>, the badly secured neighbouring building to <b>bypass security</b> and the perfect sniping spot to <b>take out</b> the guards.
+</p>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-4 hidden-xs"><i class="service-icon icon-seo-globe" data-animation="rotateIn"></i></div>
+
+                </div>
+            </div>
+        </article>
+
+        <!-- Service Item Left ALigned-->
+        <article class="service-item service-item-left-align">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4"><i class="service-icon icon-seo-wrench" data-animation="rotateIn"></i></div>
+                    <div class="col-sm-offset-1 col-sm-7  service-content">
+
+                        <h2 class="service-title" data-animation="fadeInRightBig">Modding</h2>
+                        <div class="service-text" data-animation="fadeInRightBig" data-animation-delay=".2s">
+<p data-animation="fadeInRightBig" data-animation-delay="0.05s">
+The entire game has been built from the ground up for modding. New buildings, characters, NPC behaviours, weapons and even entire gamemodes can be added by plugins.
+</p>
+
+<p data-animation="fadeInRightBig" data-animation-delay="0.1s">
+This means that updates to the game can come quickly - optional new parts can always be made available to <b>everyone</b>, by <b>anyone</b>. You can install the plugins you want to <b>customise</b> the game to how you and your friends play.
+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Service Item Right ALigned-->
+        <article class="service-item service-item-right-align theme-bg">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-offset-1 col-sm-4 visible-xs"><i class="service-icon icon-seo-bug" data-animation="rotateIn"></i></div>
+
+                    <div class="col-sm-7  service-content">
+
+                        <h2 class="service-title" data-animation="fadeInLeftBig">Early Access</h2>
+                        <div class="service-text" data-animation="fadeInLeftBig" data-animation-delay=".2s">
+<p data-animation="fadeInLeftBig" data-animation-delay="0.05s">
+Heist is currently <b>in development</b>, this means that most of the planned features of the game don't exist yet and large design changes could still happen. Nothing is finalised, major features are still in development and game breaking bugs are still common.
+</p>
+
+<p data-animation="fadeInLeftBig" data-animation-delay="0.1s">
+Those large design changes will happen in response to what feedback I get from players, from <i>you</i>. By getting involved early in development you can help shape how the game develops.
+</p>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-offset-1 col-sm-4 hidden-xs"><i class="service-icon icon-seo-bug" data-animation="rotateIn"></i></div>
+                    
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    <section class="service-item service-item-left-align steam-bg" id="greenlight">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"><i class="service-icon icon-seo-thumbs-up" data-animation="bounceInLeft"></i></div>
+                <div class="col-sm-offset-1 col-sm-7  service-content">
+
+                    <h2 class="service-title" data-animation="fadeInRightBig">Greenlight</h2>
+                    <div class="service-text" data-animation="fadeInRightBig" data-animation-delay=".2s" style="color: white">
+                        <p>
+                            <!-- <iframe src="http://steamcommunity.com/sharedfiles/widget/129699103" width="336" height="137" frameborder="0" scrolling="no"></iframe> -->
+                            Heist will soon be on greenlight and aiming for an early access release. Keep an eye on <a href="https://twitter.com/" target="blank">Twitter</a> and my <a href="http://martindevans.me/" target="blank">Blog</a> to find out more.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Container -->
+    <section id="media" class="portfolio">
+        <div class="container ">
+            <h2 class="portfolio-section-title text-center">Gallery</h2>
+            <div class="galleria"></div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <div class="container">
+
+            <!-- Header And Title -->
+            <header class="contact-section-header">
+                <h2 class="contact-section-title" data-animation="fadeInUp">Get In Touch</h2>
+                <p class="contact-section-subtitle" data-animation="fadeInUp" data-animation-delay=".05s">Tell me what you think!</p>
+            </header>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="disqus_thread" data-animation="fadeInLeftBig" data-animation-delay=".1s"></div>
+                    <script type="text/javascript">
+                        var disqus_shortname = 'heist';
+
+                        /* * * DON'T EDIT BELOW THIS LINE * * */
+                        (function() {
+                            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                    
+                    <!-- Contact Form -->
+                    <!-- <form class="contact-form" action="MAILTO:martin@placeholder-software.co.uk">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" data-animation="fadeInLeftBig" required="required"/>
+                        <input type="email" name="mail" class="form-control" placeholder="Email Address" required="required" data-animation="fadeInLeftBig" data-animation-delay=".1s" />
+                        <textarea  name="comment" rows="10" class="form-control" placeholder="Message" data-animation="fadeInLeftBig" data-animation-delay=".2s" required="required"></textarea>
+                        <button type="submit" class="btn btn-brand btn-lg" data-animation="fadeInLeftBig" data-animation-delay=".3s">Send Message&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-circle-right"></i></button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+
+
+        <!-- Social Icons -->
+        <section class="socials">
+            <div class="container">
+
+                <!-- Social Icon Items -->
+                <a href="https://twitter.com/martindevans" target="blank" data-animation="bounceIn" data-animation-delay=".2s">
+                    <img src="icons/socials/01_twitter.png" alt="socialLinkIcon" /></a>
+                <a href="https://www.youtube.com/channel/UCCOUsDF1FQ-1dLbeNM1GrKA" target="blank" data-animation="bounceIn" data-animation-delay=".1s">
+                    <img src="icons/socials/03_youtube.png" alt="socialLinkIcon" /></a>
+                <a href="http://martindevans.me" data-animation="bounceIn" target="blank" data-animation-delay=".1s">
+                    <img src="icons/socials/25_rss.png" alt="socialLinkIcon" /></a>
+                <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=129699103" target="blank" data-animation="bounceIn" data-animation-delay=".2s">
+                    <img src="icons/socials/26_steam.png" alt="socialLinkIcon" /></a>
+                
+                <!-- <a href="#socialLink" data-animation="bounceIn"><img src="icons/socials/07_linkedin.png" alt="socialLinkIcon" /></a>
+                <a href="#socialLink" data-animation="bounceIn" data-animation-delay=".4s"><img src="icons/socials/14_google-plus.png" alt="socialLinkIcon" /></a>
+                <a href="#socialLink" data-animation="bounceIn" data-animation-delay=".3s"><img src="icons/socials/02_facebook.png" alt="socialLinkIcon" /></a>
+                <a href="#socialLink" data-animation="bounceIn"><img src="icons/socials/09_vimeo.png" alt="socialLinkIcon" /></a>
+                <a href="#socialLink" data-animation="bounceIn" data-animation-delay=".1s"><img src="icons/socials/13_pinterest.png" alt="socialLinkIcon" /></a>
+                <a href="#socialLink" data-animation="bounceIn" data-animation-delay=".3s"><img src="icons/socials/16_flickr.png" alt="socialLinkIcon" /></a>
+                <a href="#socialLink" data-animation="bounceIn" data-animation-delay=".4s"><img src="icons/socials/22_skype.png" alt="socialLinkIcon" /></a>
+                <a href="#socialLink" data-animation="bounceIn" data-animation-delay=".1s"><img src="icons/socials/04_dribbble.png" alt="socialLinkIcon" /></a> -->
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <!-- <section class="copyright">
+            <p>©Copyright all rights reserved. @2013 Initializer Pvt.Ltd</p>
+        </section> -->
+    </footer>
+
+
+
+    <!-- Jquery -->
+    <script src="js/jquery-1.10.2.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Waypoints Js For Scrolling Elements -->
+    <script src="plugins/waypoints/waypoints.js"></script>
+
+
+    <!-- MixitUp For Portfolio Filtering -->
+    <script src="plugins/mixitup/jquery.mixitup.min.js"></script>
+
+
+    <!-- FlexSlider For Text Slider In Homescreen -->
+    <script src="plugins/flexSlider/jquery.flexslider.js"></script>
+
+
+    <!-- Sequence Slider For Icons SLider In Homescreen -->
+    <script src="plugins/sequence/jquery.sequence.js"></script>
+
+
+    <!-- Enable Resonsiveness in Older Browsers [IE8- ] -->
+    <script src="plugins/respond/respond.src.js"></script>
+
+
+    <!-- Map In Contact Page -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
+
+    <!-- Galleria -->
+    <script src="galleria/galleria-1.3.5.min.js"></script>
+    <script src="galleria/themes/classic/galleria.classic.js"></script>
+    
+    
+    <!-- Required Jquery Script For Initializer -->
+    <script src="js/initializer.js"></script>
+
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-46722926-1', 'placeholder-software.co.uk');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+</html>

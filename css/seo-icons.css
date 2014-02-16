@@ -1,0 +1,240 @@
+@font-face {
+	font-family: 'Seo-Icons';
+	src:url('../fonts/Seo-Icons.eot');
+	src:url('../fonts/Seo-Icons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Seo-Icons.ttf') format('truetype'),
+		url('../fonts/Seo-Icons.woff') format('woff'),
+		url('../fonts/Seo-Icons.svg#Seo-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class*="icon-seo-"] {
+	font-family: 'Seo-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-seo-open-lock:before {
+    font-family: FontAwesome;
+    content: "\f09c";
+}
+
+.icon-seo-eye:before {
+    font-family: FontAwesome;
+    content: "\f06e";
+}
+
+.icon-seo-money:before {
+    font-family: FontAwesome;
+    content: "\f0d6";
+}
+
+.icon-seo-wrench:before {
+    font-family: FontAwesome;
+    content: "\f0ad";
+}
+
+.icon-seo-globe:before {
+    font-family: FontAwesome;
+    content: "\f0ac";
+}
+
+.icon-seo-bug:before {
+    font-family: FontAwesome;
+    content: "\f188";
+}
+
+.icon-seo-thumbs-up:before {
+    font-family: FontAwesome;
+    content: "\f087";
+}
+
+.icon-seo-website-optimization:before {
+	content: "\e600";
+}
+.icon-seo-website-optimization3:before {
+	content: "\e601";
+}
+.icon-seo-website-optimization2:before {
+	content: "\e602";
+}
+.icon-seo-website-design:before {
+	content: "\e603";
+}
+.icon-seo-website-design3:before {
+	content: "\e604";
+}
+.icon-seo-website-design2:before {
+	content: "\e605";
+}
+.icon-seo-video-marketing:before {
+	content: "\e606";
+}
+.icon-seo-video-marketing3:before {
+	content: "\e607";
+}
+.icon-seo-video-marketing2:before {
+	content: "\e608";
+}
+.icon-seo-target-audience:before {
+	content: "\e609";
+}
+.icon-seo-target-audience3:before {
+	content: "\e60a";
+}
+.icon-seo-target-audience2:before {
+	content: "\e60b";
+}
+.icon-seo-seo-tips:before {
+	content: "\e60c";
+}
+.icon-seo-seo-tips3:before {
+	content: "\e60d";
+}
+.icon-seo-seo-tips2:before {
+	content: "\e60e";
+}
+.icon-seo-seo-tag:before {
+	content: "\e60f";
+}
+.icon-seo-seo-tag3:before {
+	content: "\e610";
+}
+.icon-seo-seo-tag2:before {
+	content: "\e611";
+}
+.icon-seo-seo-performance:before {
+	content: "\e612";
+}
+.icon-seo-seo-performance3:before {
+	content: "\e613";
+}
+.icon-seo-seo-performance2:before {
+	content: "\e614";
+}
+.icon-seo-pay-perclickoptimization:before {
+	content: "\e615";
+}
+.icon-seo-pay-perclickoptimization3:before {
+	content: "\e616";
+}
+.icon-seo-pay-perclickoptimization2:before {
+	content: "\e617";
+}
+.icon-seo-page-speed:before {
+	content: "\e618";
+}
+.icon-seo-page-speed3:before {
+	content: "\e619";
+}
+.icon-seo-page-speed2:before {
+	content: "\e61a";
+}
+.icon-seo-page-quality:before {
+	content: "\e61b";
+}
+.icon-seo-page-quality3:before {
+	content: "\e61c";
+}
+.icon-seo-page-quality2:before {
+	content: "\e61d";
+}
+.icon-seo-mobile-marketing:before {
+	content: "\e61e";
+}
+.icon-seo-mobile-marketing3:before {
+	content: "\e61f";
+}
+.icon-seo-mobile-marketing2:before {
+	content: "\e620";
+}
+.icon-seo-local-seo:before {
+	content: "\e621";
+}
+.icon-seo-local-seo3:before {
+	content: "\e622";
+}
+.icon-seo-local-seo2:before {
+	content: "\e623";
+}
+.icon-seo-link-building:before {
+	content: "\e624";
+}
+.icon-seo-link-building3:before {
+	content: "\e625";
+}
+.icon-seo-link-building2:before {
+	content: "\e626";
+}
+.icon-seo-landing-page:before {
+	content: "\e627";
+}
+.icon-seo-landing-page3:before {
+	content: "\e628";
+}
+.icon-seo-landing-page2:before {
+	content: "\e629";
+}
+.icon-seo-keyword-research:before {
+	content: "\e62a";
+}
+.icon-seo-keyword-research3:before {
+	content: "\e62b";
+}
+.icon-seo-keyword-research2:before {
+	content: "\e62c";
+}
+.icon-seo-google-placeoptimization:before {
+	content: "\e62d";
+}
+.icon-seo-google-placeoptimization3:before {
+	content: "\e62e";
+}
+.icon-seo-google-placeoptimization2:before {
+	content: "\e62f";
+}
+.icon-seo-code-optimization:before {
+	content: "\e630";
+}
+.icon-seo-code-optimization3:before {
+	content: "\e631";
+}
+.icon-seo-code-optimization2:before {
+	content: "\e632";
+}
+.icon-seo-article-marketing:before {
+	content: "\e633";
+}
+.icon-seo-article-marketing3:before {
+	content: "\e634";
+}
+.icon-seo-article-marketing2:before {
+	content: "\e635";
+}
+.icon-seo-analityc:before {
+	content: "\e636";
+}
+.icon-seo-analityc-3:before {
+	content: "\e637";
+}
+.icon-seo-analityc-2:before {
+	content: "\e638";
+}
+.icon-seo-active-search:before {
+	content: "\e639";
+}
+.icon-seo-active-search3:before {
+	content: "\e63a";
+}
+.icon-seo-active-search2:before {
+	content: "\e63b";
+}
