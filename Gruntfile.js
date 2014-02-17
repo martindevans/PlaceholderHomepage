@@ -28,7 +28,8 @@ module.exports = function(grunt) {
 						'plugins/pace/pace.min.js',
 						'icons/*/**',
 						'img/*',
-						'fonts/*'
+						'fonts/*',
+                        'galleria/*'
 					 ],
 				dest: 'dist/'
 			},
