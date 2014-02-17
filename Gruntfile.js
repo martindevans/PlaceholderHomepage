@@ -48,6 +48,12 @@ module.exports = function(grunt) {
 					cwd: 'dist/img', 
 					src: ['*.{png,jpg,gif}'],
 					dest: 'dist/img'
+				},
+                {
+					expand: true,
+					cwd: 'dist/icons', 
+					src: ['*.{png,jpg,gif}'],
+					dest: 'dist/icons'
 				}]
 			}
 		}
