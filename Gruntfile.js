@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 						'icons/*/**',
 						'img/*',
 						'fonts/*',
-                        'galleria/*'
+                        'galleria/**'
 					 ],
 				dest: 'dist/'
 			},
