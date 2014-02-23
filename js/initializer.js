@@ -92,6 +92,11 @@
 
     var galleryData = [
         {
+            video: "https://www.youtube.com/watch?v=ke00kU7H4IY",
+            title: "Changelog 1",
+            description: "Changelog 1, introducing stable multiplayer for Heist"
+        },
+        {
             video: "https://www.youtube.com/watch?v=72o0LWwPkx0",
             title: "Changelog 0",
             description: "The first introductory video for Heist"
