@@ -92,6 +92,23 @@
 
     var galleryData = [
         {
+            image: "http://static.placeholder-software.co.uk/gallery/images/88.png",
+            title: "Heist tutorial 2",
+            description: "The very first test of the tutorial level for the heist gamemode",
+            link: "http://static.placeholder-software.co.uk/gallery/images/88.png",
+        },
+        {
+            image: "http://static.placeholder-software.co.uk/gallery/images/87.png",
+            title: "Heist tutorial 1",
+            description: "The very first test of the tutorial level for the heist gamemode",
+            link: "http://static.placeholder-software.co.uk/gallery/images/87.png",
+        },
+        {
+            video: "https://www.youtube.com/watch?v=5zwg_D75NdU",
+            title: "Changelog 2",
+            description: "Changelog 2, Unified inventory system and plugin cleanup"
+        },
+        {
             video: "https://www.youtube.com/watch?v=ke00kU7H4IY",
             title: "Changelog 1",
             description: "Changelog 1, introducing stable multiplayer for Heist"
@@ -107,63 +124,54 @@
             description: "Testing out the new character movement and aniamtion system",
             link: "http://static.placeholder-software.co.uk/gallery/images/86.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/18 - tWu6nwI.jpg",
             title: "A New Type Of City",
             description: "A much bigger and more complex city using the new generation system",
             link: "http://static.placeholder-software.co.uk/gallery/images/18 - tWu6nwI.jpg",
         },
-    
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/85 - J8JxH.png",
             title: "Prototype Skyscrapers",
             description: "A test of generating lots of buildings in the original city generator prototype",
             link: "http://static.placeholder-software.co.uk/gallery/images/85 - J8JxH.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/83 - kq9oN.png",
             title: "Early City Block",
             description: "A city block in the original city generator prototype",
             link: "http://static.placeholder-software.co.uk/gallery/images/83 - kq9oN.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/72 - 4IJHF.png",
             title: "It's A Long Way Down",
             description: "Looking down a very tall elevator shaft in an office block",
             link: "http://static.placeholder-software.co.uk/gallery/images/72 - 4IJHF.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/57 - KFSmb.png",
             title: "Circular City",
             description: "Prototyping block layout in city generation",
             link: "http://static.placeholder-software.co.uk/gallery/images/57 - KFSmb.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/36 - ctrqP.png",
             title: "The Mysterious Box",
             description: "A physically simulated box hitting the city floor is an early test of the physics engine",
             link: "http://static.placeholder-software.co.uk/gallery/images/36 - ctrqP.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/28 - OgozJJH.png",
             title: "Building Designer",
             description: "A simple floor plan, hand designed in the building designer",
             link: "http://static.placeholder-software.co.uk/gallery/images/28 - OgozJJH.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/22 - gZaEdtM.png",
             title: "Are You Happy To See Me?",
             description: "A truly massive 600 floor skyscraper",
             link: "http://static.placeholder-software.co.uk/gallery/images/22 - gZaEdtM.png",
         },
-        
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/01%20-%2083s78An.png",
             title: "Block Layout",
