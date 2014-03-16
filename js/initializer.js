@@ -92,6 +92,16 @@
 
     var galleryData = [
         {
+            video: "https://www.youtube.com/watch?v=5qJYM0XvFi8",
+            title: "Changelog 4",
+            description: "Changelog 4, Interactive objects and plugin documentation"
+        },
+        {
+            video: "https://www.youtube.com/watch?v=VcK_x2cOicM",
+            title: "Changelog 3",
+            description: "Changelog 3, Overhauled UI plugin system"
+        },
+        {
             image: "http://static.placeholder-software.co.uk/gallery/images/88.png",
             title: "Heist tutorial 2",
             description: "The very first test of the tutorial level for the heist gamemode",
