@@ -92,9 +92,15 @@
 
     var galleryData = [
         {
-            video: "http://static.placeholder-software.co.uk/gallery/images/90.png",
+            video: "https://www.youtube.com/watch?v=RBdH-MIwh_E",
+            title: "Changelog 6",
+            description: "Changelog 6, Massive Improvements To World Generator Speed"
+        },
+        {
+            image: "http://static.placeholder-software.co.uk/gallery/images/90.png",
             title: "Floor Plan MK1",
             description: "The very first test of basic floor plan generation"
+            link: "http://static.placeholder-software.co.uk/gallery/images/90.png",
         },
         {
             video: "https://www.youtube.com/watch?v=5qJYM0XvFi8",
