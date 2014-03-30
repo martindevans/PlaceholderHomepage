@@ -99,8 +99,8 @@
         {
             image: "http://static.placeholder-software.co.uk/gallery/images/90.png",
             title: "Floor Plan MK1",
-            description: "The very first test of basic floor plan generation"
-            link: "http://static.placeholder-software.co.uk/gallery/images/90.png",
+            description: "The very first test of basic floor plan generation",
+            link: "http://static.placeholder-software.co.uk/gallery/images/90.png"
         },
         {
             video: "https://www.youtube.com/watch?v=5qJYM0XvFi8",
