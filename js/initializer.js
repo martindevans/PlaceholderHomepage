@@ -92,6 +92,11 @@
 
     var galleryData = [
         {
+            video: "https://www.youtube.com/watch?v=wl9U-Mh5bS0",
+            title: "Changelog 7",
+            description: "Changelog 7, Building Facade Generation"
+        },
+        {
             video: "https://www.youtube.com/watch?v=RBdH-MIwh_E",
             title: "Changelog 6",
             description: "Changelog 6, Massive Improvements To World Generator Speed"
