@@ -70,7 +70,7 @@ module.exports = function(grunt) {
 		'uglify',
 		'cssmin',
 		'usemin',
-		'imagemin'
+		//'imagemin'
 	]
 
 	//registers the task that wull be run when 'grunt' is called from the cli 
