@@ -92,6 +92,11 @@
 
     var galleryData = [
         {
+            video: "https://www.youtube.com/watch?v=HqCZlWto7Pc",
+            title: "Changelog 8",
+            description: "Changelog 8, Electronics Infrastructure"
+        },
+        {
             video: "https://www.youtube.com/watch?v=wl9U-Mh5bS0",
             title: "Changelog 7",
             description: "Changelog 7, Building Facade Generation"
