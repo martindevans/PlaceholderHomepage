@@ -9,7 +9,6 @@
     "grunt-contrib-cssmin": "latest",
     "grunt-contrib-copy": "latest",
     "grunt-usemin": "latest",
-    "grunt-contrib-imagemin": "latest",
     "gifsicle": "latest"
   }
 }

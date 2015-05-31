@@ -7,7 +7,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-usemin');
-	grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 	//This config is loaded when grunt is ran.
 	grunt.initConfig({
@@ -41,23 +40,6 @@ module.exports = function(grunt) {
 				assetsDirs: ['css', 'js']
 			}
 		},
-		//General image compression
-		imagemin: {
-			main: {
-				files: [{
-					expand: true,
-					cwd: 'dist/img', 
-					src: ['*.{png,jpg,gif}'],
-					dest: 'dist/img'
-				},
-                {
-					expand: true,
-					cwd: 'dist/icons', 
-					src: ['**/*.{png,jpg,gif}'],
-					dest: 'dist/icons'
-				}]
-			}
-		}
 	});
 
 	//Our tasks in the order they should be ran. Note that concat, uglify and others
@@ -70,7 +52,6 @@ module.exports = function(grunt) {
 		'uglify',
 		'cssmin',
 		'usemin',
-		//'imagemin'
 	]
 
 	//registers the task that wull be run when 'grunt' is called from the cli 
